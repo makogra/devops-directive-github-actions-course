@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  Echo-Commend:
+  echo_commend:
       runs-on: ubuntu-24.04
       steps:
         - run: echo "Hello World aka Hello Github Actions"
