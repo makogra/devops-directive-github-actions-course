@@ -1,7 +1,8 @@
 name: Hello Action #1
 run-name: Hello Github Action
-on: workflow-dispatch
+on: workflow_dispatch
 jobs:
-    runs-on: ubuntu-latest
-    steps:
-        - run: echo "Hello World aka Hello Github Actions"
+    Echo-Commend:
+        runs-on: ubuntu-latest
+        steps:
+            - run: echo "Hello World aka Hello Github Actions"
