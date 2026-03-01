@@ -1,0 +1,7 @@
+name: Hello Action #1
+run-name: Hello Github Action
+on: workflow-dispatch
+jobs:
+    runs-on: ubuntu-latest
+    steps:
+        - run: echo "Hello World aka Hello Github Actions"
