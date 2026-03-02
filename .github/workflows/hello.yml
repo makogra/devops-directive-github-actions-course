@@ -1,0 +1,8 @@
+name: My-Hello
+on: 
+    push:
+jobs:
+    print-hello:
+        runs-on: ubuntu-latest
+        steps:
+            - run: echo "Siemano"

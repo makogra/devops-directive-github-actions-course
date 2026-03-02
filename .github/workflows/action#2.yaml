@@ -1,0 +1,8 @@
+name: Action2
+on:
+ pull_request:
+jobs:
+    print-branch:
+        runs-on: ubuntu-lates
+        steps:
+            - run: echo "runs from branch ${{ github.ref }}"
