@@ -3,6 +3,6 @@ on:
  pull_request:
 jobs:
     print-branch:
-        runs-on: ubuntu-lates
+        runs-on: ubuntu-latest
         steps:
             - run: echo "runs from branch ${{ github.ref }}"
